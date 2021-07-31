@@ -1,0 +1,33 @@
+{
+  "name": "rubiks-cube-algorithm-api",
+  "version": "1.0.0",
+  "description": "A rubiks a algorithm api",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDWNAV/rubiks-cube-algorithm-api.git"
+  },
+  "keywords": [
+    "api",
+    "rubiks-cube",
+    "rubiks"
+  ],
+  "author": "bdwnav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BDWNAV/rubiks-cube-algorithm-api/issues"
+  },
+  "homepage": "https://github.com/BDWNAV/rubiks-cube-algorithm-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
